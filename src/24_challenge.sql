@@ -4,4 +4,4 @@ FROM users u
     JOIN history_play_songs ON u.id = history_play_songs.user_id
 GROUP BY
     u.id
-ORDER BY COUNT(history_play_songs.song_id) DESC, u.full_name ASC;
+ORDER BY COUNT(history_play_songs.song_id) DESC, u.full_name ASC;users
